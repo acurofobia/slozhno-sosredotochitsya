@@ -19,7 +19,7 @@
   --link-shadow: #FF8DCB;
 }
 
-.theme_light .header__theme-menu-button_type_light{
+.theme_light .header__theme-menu-button_type_light {
   border: 1px solid var(--text-color);
 }
 
