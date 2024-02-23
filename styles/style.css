@@ -44,7 +44,7 @@
   border-left: 1px solid var(--second-text-color);
 }
 
-.page .rec { 
+.page .rec {
   position: absolute;
   top: var(--padding);
   right: calc(var(--padding) + 28px);
@@ -86,7 +86,7 @@
 }
 
 .header__theme-menu-button {
-  border: solid 1px transparent; /* Нашел такое решение */
+  border: solid 1px transparent;
   padding: 0;
   padding-bottom: 3px;
   color: var(--second-text-color);
@@ -95,7 +95,7 @@
   text-transform: lowercase;
   background: transparent;
   inline-size: 70px;
-  block-size: 26px;
+  block-size: 26px;/* Нашел такое решение */
 }
 
 .header__theme-menu-button_active {
@@ -110,7 +110,7 @@
 
 .header__theme-menu-button:focus-visible {
   border-bottom: 1px solid var(--second-text-color);
-  outline: none;  
+  outline: none;
 }
 
 @media (width > 768px) {
