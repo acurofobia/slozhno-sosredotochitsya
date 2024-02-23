@@ -40,7 +40,7 @@
     --link-shadow: #ff8dcb;
   }
 
-  .rec {
+  .theme_auto .rec {
     display: none;
   }
 }
