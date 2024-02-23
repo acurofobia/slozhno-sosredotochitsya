@@ -4,31 +4,19 @@
   переключая тему
 */
 .theme_light {
-  --main-color: #FFF1F7;
-  --accent-color: #FF8DCB;
-  --second-text-color: var(--text-color);
+  --main-color: #fff1f7;
+  --accent-color: #ff8dcb;
+  --second-text-color: #353430;
   --text-color: #353430;
-  --heading-color: #FFC2E6;
-  --header-text: var(--text-color);
+  --heading-color: #ffc2e6;
+  --header-text: #353430;
   --second-main-color: #353430;
-  --secont-accent-color: #FF0070;
-  --shadow-color: var(--secont-accent-color);
+  --secont-accent-color: #ff0070;
+  --shadow-color: #ff0070;
   --transparent-border: rgba(50, 49, 45, 0.4);
   --background-image: url(../images/cover-image-light.png);
-  --content-text: var(--second-main-color);
-  --link-shadow: #FF8DCB;
-}
-
-.theme_light .header__theme-menu-button_type_light {
-  border: 1px solid var(--text-color);
-}
-
-.header__theme-menu-button_type_dark {
-  border: none;
-}
-
-.theme_light .header__theme-menu-button_type_auto {
-  border: none;
+  --content-text: #353430;
+  --link-shadow: #ff8dcb;
 }
 
 .theme_light .rec {
@@ -37,26 +25,22 @@
 
 @media (prefers-color-scheme: light) {
   :root {
-      --main-color: #FFF1F7;
-      --accent-color: #FF8DCB;
-      --second-text-color: var(--text-color);
-      --text-color: #353430;
-      --heading-color: #FFC2E6;
-      --header-text: var(--text-color);
-      --second-main-color: #353430;
-      --secont-accent-color: #FF0070;
-      --shadow-color: var(--secont-accent-color);
-      --transparent-border: rgba(50, 49, 45, 0.4);
-      --background-image: url(../images/cover-image-light.png);
-      --link-shadow: #FF8DCB;
-      --content-text: var(--second-main-color);
-    }
+    --main-color: #fff1f7;
+    --accent-color: #ff8dcb;
+    --second-text-color: #353430;
+    --text-color: #353430;
+    --heading-color: #ffc2e6;
+    --header-text: #353430;
+    --second-main-color: #353430;
+    --secont-accent-color: #ff0070;
+    --shadow-color: #ff0070;
+    --transparent-border: rgba(50, 49, 45, 0.4);
+    --background-image: url(../images/cover-image-light.png);
+    --content-text: #353430;
+    --link-shadow: #ff8dcb;
+  }
 
-    .rec {
-      display: none;
-    }
-
-    .header__theme-menu-button_type_auto {
-    border: 1px solid var(--text-color);
+  .rec {
+    display: none;
   }
 }

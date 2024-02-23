@@ -3,17 +3,22 @@
   и их переопределение под различные устройства
 */
 :root {
-  --second-text-color: var(--accent-color);
-  --header-text: var(--main-color);
+  --second-text-color: #ff0070;
+  --header-text: #000028;
   --main-color: #000028;
-  --accent-color: #FF0070;
-  --text-color: #F1B2CE;
-  --shadow-color: var(--accent-color);
-  --heading-color: #DB00FF;
+  --accent-color: #ff0070;
+  --text-color: #f1b2ce;
+  --shadow-color: #ff0070;
+  --heading-color: #dB00ff;
   --transparent-border: rgba(255, 0, 112, 0.4);
-  --content-text: #F1B2CE;
-  --link-shadow: var(--accent-color);
-
+  --content-text: #f1b2ce;
+  --link-shadow: #ff0070;
   --padding: 10px;
   --background-image: url(../images/cover-image-dark.png);
+}
+
+@media (width >= 768px) {
+  :root {
+    --padding: 20px;
+  }
 }

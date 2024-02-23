@@ -4,29 +4,17 @@
   переключая тему
 */
 .theme_dark {
-  --second-text-color: var(--accent-color);
+  --second-text-color: #ff0070;
   --main-color: #000028;
-  --accent-color: #FF0070;
-  --header-text: var(--main-color);
-  --shadow-color: var(--accent-color);
-  --text-color: #F1B2CE;
-  --heading-color: #DB00FF;
+  --accent-color: #ff0070;
+  --header-text: #000028;
+  --shadow-color: #ff0070;
+  --text-color: #f1b2ce;
+  --heading-color: #db00ff;
   --transparent-border: rgba(255, 0, 112, 0.4);
   --background-image: url(../images/cover-image-dark.png);
-  --content-text: #F1B2CE;
-  --link-shadow: var(--accent-color);
-}
-
-.theme_dark .header__theme-menu-button_type_dark {
-  border: 1px solid var(--accent-color);
-}
-
-.header__theme-menu-button_type_light {
-  border: none;
-}
-
-.theme_dark .header__theme-menu-button_type_auto {
-  border: none;
+  --content-text: #f1b2ce;
+  --link-shadow: #ff0070;
 }
 
 .theme_dark .rec {
@@ -53,10 +41,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-  .header__theme-menu-button_type_auto {
-    border: 1px solid var(--accent-color);
-  }
-
   .rec {
     position: absolute;
     top: var(--padding);
